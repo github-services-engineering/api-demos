@@ -1,5 +1,4 @@
 .bundle
-bin
 /vendor
 Gemfile.lock
 package-lock.json
