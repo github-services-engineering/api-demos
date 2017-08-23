@@ -1,6 +1,8 @@
 # GitHub GraphQL API: Query Samples
 
-This repository holds query samples for the GitHub GraphQL API. It's an easy way to get started using the GraphQL API for common workflows. You can copy and paste these queries into [GraphQL Explorer](https://developer.github.com/early-access/graphql/explorer) or you can use the included script.
+Based on the [GitHub Platform Samples repository](https://github.com/github/platform-samples/)
+
+This directory contains query samples for the GitHub GraphQL API. It's an easy way to get started using the GraphQL API for common workflows. You can copy and paste these queries into the web-based [GraphQL Explorer](https://developer.github.com/early-access/graphql/explorer) or you can use the included script.
 
 ### How to use the included script
 
