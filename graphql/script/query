@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -e
+
+bundle exec bin/run-query $1.graphql
