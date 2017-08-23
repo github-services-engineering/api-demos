@@ -1,16 +1,17 @@
-query { 
-  repositoryOwner(login: "git") { 
-    repository(name: "git") {
-      description hasWikiEnabled
+query {
+  repositoryOwner(login: "desktop") {
+    repository(name: "desktop") {
+      description
+      hasWikiEnabled
       issues(states: OPEN) {
         totalCount
-      } 
+      }
       pullRequests(states: OPEN) {
-        totalCount 
-      } 
+        totalCount
+      }
       stargazers {
         totalCount
-      } 
+      }
       forks {
         totalCount
       }
